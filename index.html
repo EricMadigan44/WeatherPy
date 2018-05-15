@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Visualization</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Navigation bar -->
+  <div class = "container-fluid">
+    
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Home</a>
+      </div>
+        
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" class="dropdown">
+          <a class="dropdown-toggle" role="button" aria-expanded="false" aria-haspopup="true" href="#" data-toggle="dropdown"> 
+            Plots <span class="caret"></span> 
+          </a>
+          <ul class="dropdown-menu">
+            <li align=center><strong>Weather Visualization</strong></li> 
+            <li role="separator" class="divider"></li>
+            <li><a href="temperature.html">Temperature (&deg;F)</a></li>
+            <li><a href="humidity.html">Humidity</a></li>
+            <li><a href="cloudiness.html">Cloudiness</a></li>
+            <li><a href="windspeed.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        <li role="presentation">
+          <a href="comparisons.html">
+              <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+              Comparisons
+            </a>
+          </li>
+        <li role="presentation">
+          <a href="data.html">
+            <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+            Data
+          </a>
+        </li>
+      </ul> 
+  </div>
+
+  <hr> 
+
+  <div class="row">
+<style>
+h1 {
+color: Darkblue;
+font-family: Georgia, serif;
+}
+
+
+</style>
+    <div class="col-md-12">
+
+      <h1 align="center"> Weather Analytics & Visualizations </h1>
+	  <p> </p>
+	  <p> <h4 align="center">This Website displays the weather analytics I performed on data from the <a href="https://openweathermap.org/">Open Weather Map</a>  </h4></p>
+    </div>  <div class="row">
+      <div class="col-md-12" align="center"> 
+  <h5>Utilizing Python I created four Weather Visualizations:</h5>
+     <!--   <ul "w3-center"> -->
+          <li><a href="temperature.html">Temperature (&deg;F)</a></li>
+          <li><a href="humidity.html">Humidity</a></li>
+          <li><a href="cloudiness.html">Cloudiness</a></li>
+          <li><a href="windspeed.html">Wind Speed</a></li>
+      <!--  </ul> -->
+          
+      </div>
+    </div>
+  </div> 
+  <br>
+
+  </div> 
+
+  <div style="position: relative">
+  
+  </div>  
+
+</div> 
+  
+</body>
+</html>

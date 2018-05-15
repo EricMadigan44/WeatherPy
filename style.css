@@ -1,0 +1,15 @@
+ p, a, li, span {
+    font-family: Verdana, Geneva, Tahoma, serif;
+}
+
+@media (max-width: 480px){
+
+.navbar-nav {
+    visibility: hidden;
+  }
+
+}
+h1 {
+Font-color: DarkBlue;
+font-family: Georgia, serif;}
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Data Visualization</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<style>
+h1 {
+color: Darkblue;
+font-family: Georgia, serif;
+}
+</style>
+<div class="container">
+
+  <!-- Navigation bar -->
+  <div class = "container-fluid">
+    
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+      
+    <ul class="nav navbar-nav navbar-right">
+      <li role="presentation" class="dropdown">
+        <a class="dropdown-toggle" role="button" aria-expanded="false" aria-haspopup="true" href="#" data-toggle="dropdown"> 
+          Plots <span class="caret"></span> 
+        </a>
+        <ul class="dropdown-menu">
+          <li align=center><strong>Weather Visualization</strong></li> 
+          <li role="separator" class="divider"></li>
+          <li><a href="temperature.html">Temperature (&deg;F)</a></li>
+          <li><a href="humidity.html">Humidity</a></li>
+          <li><a href="cloudiness.html">Cloudiness</a></li>
+          <li><a href="windspeed.html">Wind Speed</a></li>
+        </ul>
+      </li>
+      <li role="presentation">
+          <a href="comparisons.html">
+              <span class="glyphicon glyphicon-th-large" aria-hidden="true">
+              </span>
+              Comparisons
+            </a>
+          </li>
+        <li role="presentation">
+          <a href="data.html">
+            <span class="glyphicon glyphicon-th-list" aria-hidden="true">
+            </span>
+            Data
+          </a>
+        </li>
+    </ul>
+      
+  </div>
+
+  <hr>
+
+  <div class = "container-fluid"> 
+
+    <div class="row">
+	<style>
+h1 {
+color: Darkblue;
+font-family: Georgia, serif;
+}
+</style>
+      <div class="col-md-12" align="center">
+	  <h1> Cloudiness Plot</h1>
+	  </div>
+	  <div class="col-md-12" align="center">
+        <img src="Latitude_vs_Cloudiness.png">
+        <br>
+      </div>
+    </div>
+
+    <div class = "row">
+      <div class = "col-md-12">
+		<p> </p>
+		<p>
+          
+		  The Chart depicted above display's each cities latitude and the % of cloudiness at that city.
+		  This chart plots each city's latitude based on the cities cloudiness percentage from 0 to 100.  
+          The x-axis represents the latitude for each city, designating 0 as the equator.  
+          The more positive a number is, the farther north of the equator that city is located. 
+		  The more negative a number is, the farther south of the equator that city is located.
+		  
+          The y-axis represents the cloudiness percentage for each city on a scaled from 0% to 100%.
+		  If the city is above 75 it is considered a high cloudiness area. 
+		  If the city is located between 75 and 25 it is considered a medium cloudiness area.
+		  If the city is below 24 it is considered a low cloudiness area. 
+		  
+
+        </p>
+        <p>
+         This data does not show a strong correlation between cloudiness and the location of a city based 
+		 on the cities distance from the equator. The graph shows both cities from the south and cities from 
+		 the north of the equator having high and low cloudiness areas. 
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</div>  
+
+
+
+</body>
+</html>
